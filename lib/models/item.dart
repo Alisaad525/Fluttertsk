@@ -13,7 +13,6 @@ class Item {
     this.discount = 0.0,
   });
 
-  // Method to calculate the discounted price
   double get discountedPrice {
     return price - (price * (discount / 100));
   }

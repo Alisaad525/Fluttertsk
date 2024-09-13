@@ -8,7 +8,7 @@ class DiscountBanner extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     if (discountText.isEmpty) {
-      return SizedBox.shrink(); // Return an empty widget if no discount text
+      return SizedBox.shrink();
     }
     return Container(
       padding: EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),

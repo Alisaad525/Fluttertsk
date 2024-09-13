@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../viewmodels/item_viewmodel.dart';
-import 'widgets/search_bar.dart' as custom; // Use 'custom' prefix here
+import 'widgets/search_bar.dart' as custom;
 import 'widgets/item_list.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -19,9 +19,8 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       body: Column(
         children: [
-          // Add Padding widget to create space above the search bar
           Padding(
-            padding: const EdgeInsets.only(top: 30.0), // Adjust top padding as needed
+            padding: const EdgeInsets.only(top: 30.0),
             child: custom.SearchBar(
               onSearch: (value) {
                 setState(() {

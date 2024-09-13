@@ -9,10 +9,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter MVVM',
+      title: 'task',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: HomeScreen(),
-      debugShowCheckedModeBanner: false, // Disable the debug banner
+      debugShowCheckedModeBanner: false,
     );
   }
 }

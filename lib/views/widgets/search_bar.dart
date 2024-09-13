@@ -17,7 +17,7 @@ class SearchBar extends StatelessWidget {
           ),
           suffixIcon: Icon(Icons.search),
         ),
-        onChanged: onSearch, // This handles the search input
+        onChanged: onSearch,
       ),
     );
   }

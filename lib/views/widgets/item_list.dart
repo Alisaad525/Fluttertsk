@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
-import '../../models/item.dart'; // Adjust import if necessary
+import '../../models/item.dart';
 import 'discount_banner.dart';
 
 class ItemList extends StatelessWidget {
@@ -93,7 +93,7 @@ class ItemList extends StatelessWidget {
                             '\$${item.discountedPrice.toStringAsFixed(2)}',
                             style: Theme.of(context).textTheme.subtitle2!.copyWith(
                               fontSize: 16.0,
-                              color: Colors.red, // Color for discounted price
+                              color: Colors.red,
                             ),
                           ),
                         ],
